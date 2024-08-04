@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dag-nocurl"
+version = "0.1.0"
+description = ""
+authors = ["naoki <u429561d@ecs.osaka-u.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+networkx = "^3.3"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+tqdm = "^4.66.4"
+scipy = "^1.14.0"
+ipykernel = "^6.29.5"
+cdt = "^0.6.0"
+torch = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
